@@ -113,85 +113,111 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-      </section>      {/* Mission & Vision (no container cards) */}
+      </section>
+
+      {/* Our Values - R.I.G.H.T displayed vertically */}
       <section className="px-4 py-12">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <Target className="w-8 h-8 text-secondary" />
-                <h3 className="text-2xl font-bold text-foreground">Our Mission</h3>
+        <div className="container mx-auto max-w-5xl">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary text-center">Our Values</h2>
+          <p className="text-muted-foreground mb-12 text-center max-w-3xl mx-auto text-lg">
+            In pursuit of our vision and mission, our professional code of conduct is anchored on the R.I.G.H.T values.
+          </p>
+          
+          {/* Vertical R.I.G.H.T Layout */}
+          <div className="space-y-6 max-w-4xl mx-auto">
+            {/* R - Reliability */}
+            <div className="flex items-start gap-4 p-6 rounded-2xl bg-card/30 backdrop-blur border border-primary/20 hover:border-primary/50 transition-all duration-300 group">
+              <div className="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center font-bold text-2xl shadow-lg group-hover:scale-110 transition-transform">
+                R
               </div>
-              <p className="text-muted-foreground leading-relaxed">
-                Unlocking entrepreneurial potential by delivering accessible resources, expert mentorship, and
-                cutting-edge financing solutions, driving business growth and economic prosperity.
-              </p>
+              <div className="flex-1">
+                <h4 className="text-xl font-bold text-foreground mb-2">Reliability</h4>
+                <p className="text-muted-foreground leading-relaxed">
+                  To strive for the highest levels of reliability in all facets of our business by delivering what we promise on time.
+                </p>
+              </div>
             </div>
 
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <Award className="w-8 h-8 text-primary" />
-                <h3 className="text-2xl font-bold text-foreground">Our Vision</h3>
+            {/* I - Integrity */}
+            <div className="flex items-start gap-4 p-6 rounded-2xl bg-card/30 backdrop-blur border border-secondary/20 hover:border-secondary/50 transition-all duration-300 group">
+              <div className="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-secondary to-primary text-white flex items-center justify-center font-bold text-2xl shadow-lg group-hover:scale-110 transition-transform">
+                I
               </div>
-              <p className="text-muted-foreground leading-relaxed">
-                To be destiny transmutation architects and enablers of legacy building in the micro entrepreneurship
-                ecosystem.
-              </p>
+              <div className="flex-1">
+                <h4 className="text-xl font-bold text-foreground mb-2">Integrity</h4>
+                <p className="text-muted-foreground leading-relaxed">
+                  To render integrity as the hallmark of our business conduct by doing what we say we will do.
+                </p>
+              </div>
+            </div>
+
+            {/* G - Genuineness */}
+            <div className="flex items-start gap-4 p-6 rounded-2xl bg-card/30 backdrop-blur border border-primary/20 hover:border-primary/50 transition-all duration-300 group">
+              <div className="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center font-bold text-2xl shadow-lg group-hover:scale-110 transition-transform">
+                G
+              </div>
+              <div className="flex-1">
+                <h4 className="text-xl font-bold text-foreground mb-2">Genuineness</h4>
+                <p className="text-muted-foreground leading-relaxed">
+                  To discharge our mandate with genuineness in all our dealings by executing tasks with competence.
+                </p>
+              </div>
+            </div>
+
+            {/* H - Honesty */}
+            <div className="flex items-start gap-4 p-6 rounded-2xl bg-card/30 backdrop-blur border border-secondary/20 hover:border-secondary/50 transition-all duration-300 group">
+              <div className="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-secondary to-primary text-white flex items-center justify-center font-bold text-2xl shadow-lg group-hover:scale-110 transition-transform">
+                H
+              </div>
+              <div className="flex-1">
+                <h4 className="text-xl font-bold text-foreground mb-2">Honesty</h4>
+                <p className="text-muted-foreground leading-relaxed">
+                  To handle the affairs of the business with honesty at all times by acting in a responsible and accountable manner.
+                </p>
+              </div>
+            </div>
+
+            {/* T - Tenacity */}
+            <div className="flex items-start gap-4 p-6 rounded-2xl bg-card/30 backdrop-blur border border-primary/20 hover:border-primary/50 transition-all duration-300 group">
+              <div className="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center font-bold text-2xl shadow-lg group-hover:scale-110 transition-transform">
+                T
+              </div>
+              <div className="flex-1">
+                <h4 className="text-xl font-bold text-foreground mb-2">Tenacity</h4>
+                <p className="text-muted-foreground leading-relaxed">
+                  To pursue every set goal with tenacity by completing set objectives with speed and aggression.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Our Values - no container card, two lines; animations controlled by parent section */}
-      <section className="px-4 py-12 values-anim">
-        <div className="container mx-auto max-w-5xl">
-          <h2 className="text-3xl font-bold mb-4 text-primary text-center">Our Values</h2>
-          <p className="text-muted-foreground mb-6 text-center max-w-3xl mx-auto">
-            In pursuit of our vision and mission, our professional code of conduct is anchored on the R.I.G.H.T values.
-          </p>
-          <div className="space-y-6">
-            {/* Row 1: R, I, G */}
-            <div className="flex flex-col sm:flex-row gap-6">
-              <div className="flex items-start gap-3 value-item" data-dir="left" style={{ ['--delay' as any]: '0s' }}>
-                <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center font-bold">R</div>
-                <div>
-                  <h4 className="font-semibold text-foreground">Reliability</h4>
-                  <p className="text-sm text-muted-foreground">To strive for the highest levels of reliability in all facets of our business by delivering what we promise on time.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3 value-item" data-dir="right" style={{ ['--delay' as any]: '.8s' }}>
-                <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center font-bold">I</div>
-                <div>
-                  <h4 className="font-semibold text-foreground">Integrity</h4>
-                  <p className="text-sm text-muted-foreground">To render integrity as the hallmark of our business conduct by doing what we say we will do.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3 value-item" data-dir="left" style={{ ['--delay' as any]: '1.6s' }}>
-                <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center font-bold">G</div>
-                <div>
-                  <h4 className="font-semibold text-foreground">Genuineness</h4>
-                  <p className="text-sm text-muted-foreground">To discharge our mandate with genuineness in all our dealings by executing tasks with competence.</p>
-                </div>
-              </div>
+      {/* Mission & Vision - Stacked Vertically */}
+      <section className="px-4 py-12">
+        <div className="container mx-auto max-w-3xl space-y-8">
+          {/* Our Mission */}
+          <div className="p-8 rounded-2xl bg-gradient-to-br from-secondary/10 via-secondary/5 to-transparent border border-secondary/20">
+            <div className="flex items-center gap-3 mb-4">
+              <Target className="w-10 h-10 text-secondary" />
+              <h3 className="text-3xl font-bold text-foreground">Our Mission</h3>
             </div>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Unlocking entrepreneurial potential by delivering accessible resources, expert mentorship, and
+              cutting-edge financing solutions, driving business growth and economic prosperity.
+            </p>
+          </div>
 
-            {/* Row 2: H, T */}
-            <div className="flex flex-col sm:flex-row gap-6">
-              <div className="flex items-start gap-3 value-item" data-dir="right" style={{ ['--delay' as any]: '2.4s' }}>
-                <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center font-bold">H</div>
-                <div>
-                  <h4 className="font-semibold text-foreground">Honesty</h4>
-                  <p className="text-sm text-muted-foreground">To handle the affairs of the business with honesty at all times by acting in a responsible and accountable manner.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3 value-item" data-dir="left" style={{ ['--delay' as any]: '3.2s' }}>
-                <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center font-bold">T</div>
-                <div>
-                  <h4 className="font-semibold text-foreground">Tenacity</h4>
-                  <p className="text-sm text-muted-foreground">To pursue every set goal with tenacity by completing set objectives with speed and aggression.</p>
-                </div>
-              </div>
+          {/* Our Vision */}
+          <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/20">
+            <div className="flex items-center gap-3 mb-4">
+              <Award className="w-10 h-10 text-primary" />
+              <h3 className="text-3xl font-bold text-foreground">Our Vision</h3>
             </div>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              To be destiny transmutation architects and enablers of legacy building in the micro entrepreneurship
+              ecosystem.
+            </p>
           </div>
         </div>
       </section>

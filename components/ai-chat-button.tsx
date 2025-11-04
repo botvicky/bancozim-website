@@ -1,10 +1,11 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { MessageCircle, X, Send } from "lucide-react"
+import { X, Send } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
+import Image from "next/image"
 
 export function AIChatButton() {
   const [footerVisible, setFooterVisible] = useState(false)
@@ -81,10 +82,20 @@ export function AIChatButton() {
           </div>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center glow-blue hover:glow-orange transition-all duration-300 shadow-lg"
+            className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center glow-blue hover:glow-orange transition-all duration-300 shadow-lg overflow-hidden"
             aria-label="Open chat"
           >
-            {isOpen ? <X className="w-6 h-6 text-white" /> : <MessageCircle className="w-6 h-6 text-white" />}
+            {isOpen ? (
+              <X className="w-6 h-6 text-white" />
+            ) : (
+              <Image 
+                src="/adala.png" 
+                alt="Adala AI Assistant" 
+                width={64} 
+                height={64}
+                className="w-full h-full object-cover"
+              />
+            )}
           </button>
         </div>
       )}

@@ -150,7 +150,7 @@ export default function WhatWeDoPage() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
-              Let's Launch Your Business <span className="text-secondary text-glow-blue">Into a New Orbit</span>
+              Let's Launch Your Business <span className="text-secondary text-glow-blue">Into a New Day</span>
             </h2>
 
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed">

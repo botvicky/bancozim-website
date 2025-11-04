@@ -40,10 +40,12 @@ export default function FAQPage() {
 
             <AccordionItem value="item-2" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                Who is it for?
+                Who is eligible for MicroBiz financing?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Currently, MicroBiz focuses on serving small business owners who are civil servants in Zimbabwe. However, we're expanding our
+                Currently, MicroBiz focuses on serving small business owners who are civil servants in Zimbabwe. This includes 
+                employees looking to grow their income, anyone starting a side hustle, people supporting family members in business, 
+                pre-retirees seeking post-retirement vocations, and anyone seeking financial freedom. However, we're expanding our
                 reach and welcome inquiries from entrepreneurs across Zimbabwe.
               </AccordionContent>
             </AccordionItem>
@@ -54,7 +56,7 @@ export default function FAQPage() {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
                 Our streamlined application process typically takes 3-5 business days from submission to approval. Once
-                approved, funds are disbursed within 48 hours.
+                approved, funds are disbursed within 48 hours, ensuring you can get started quickly.
               </AccordionContent>
             </AccordionItem>
 
@@ -64,18 +66,109 @@ export default function FAQPage() {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
                 We combine microfinancing with business mentorship and support. Our team doesn't just provide capital—we
-                partner with you to ensure your business succeeds through strategic guidance and ongoing support via the microbiz monitoring and evaluation system.
+                partner with you to ensure your business succeeds through strategic guidance and ongoing support via the MicroBiz 
+                monitoring and evaluation system. Our holistic approach includes promoting a mindset shift and strong financial literacy.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-5" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-foreground hover:text-secondary">
+                What types of businesses can I start with MicroBiz funding?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed">
+                We support a wide range of businesses including retail shops, animal husbandry (chicken rearing, cattle farming), 
+                tech and services, food and catering, beauty and salons, construction and building, transport and logistics, fashion 
+                and apparel, car wash services, farming (tomatoes, cabbage), and many more. Each business type has a tailored starter 
+                pack designed specifically for that industry.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-6" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-foreground hover:text-secondary">
+                What are the R.I.G.H.T values and why do they matter?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed">
+                Our R.I.G.H.T values are the foundation of how we operate: Reliability (delivering what we promise on time), 
+                Integrity (doing what we say we will do), Genuineness (executing tasks with competence), Honesty (acting in a 
+                responsible and accountable manner), and Tenacity (completing objectives with speed and aggression). These values 
+                ensure you receive professional, trustworthy service throughout your partnership with us.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-7" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-foreground hover:text-secondary">
+                How much funding can I receive?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed">
+                Funding amounts vary depending on your chosen business starter pack. For example, the Food & Catering Pack ranges 
+                from $300 to $1,500, while the Construction & Building Pack ranges from $1,200 to $6,000. Each pack is designed to 
+                provide exactly what you need to launch successfully in your specific industry.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-8" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-foreground hover:text-secondary">
+                Are there any hidden fees or charges?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed">
+                No. We believe in transparent pricing with no surprise charges or hidden costs. All fees and terms are clearly 
+                outlined in your agreement before you commit. What you see is what you get—no hidden surprises.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-9" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-foreground hover:text-secondary">
+                What kind of business support do you provide beyond funding?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed">
+                MicroBiz provides comprehensive support including business mentorship, strategic guidance, training on financial 
+                literacy, help with business planning, supplier connections, marketing support, and access to our monitoring and 
+                evaluation system to track your progress. We exist to help you become a confident entrepreneur who is well equipped, 
+                well resourced, and well trained.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-10" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-foreground hover:text-secondary">
+                Do you offer flexible repayment terms?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed">
+                Yes! Our repayment terms are designed to match your business cash flow, with grace periods available when needed. 
+                We understand that businesses have ups and downs, so we work with you to create a repayment plan that's sustainable 
+                and realistic for your situation.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-11" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
                 How can I get started with your services?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
                 Simply click the "Apply Now" button to visit our application portal at bancosystem.co.zw. Fill out the
                 application form with your business details, and our team will review your submission within 3-5
-                business days.
+                business days. You can also chat with Adala, our AI assistant, for instant answers to your questions.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-12" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-foreground hover:text-secondary">
+                Who are your partners and what do they bring to the table?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed">
+                We partner with established institutions including the Salary Services Bureau of Zimbabwe, ZB Financial Holdings, 
+                Small Enterprise Development Corporation, and National Building Society Bank of Zimbabwe. These partnerships enable 
+                us to provide secure, reliable financing solutions and comprehensive support to our entrepreneurs.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-13" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-foreground hover:text-secondary">
+                What is your success rate with funded businesses?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground leading-relaxed">
+                We're proud to maintain a 95% success rate with our funded businesses. We've helped over 500+ businesses get started 
+                and have deployed over $2M+ in capital. Our success comes from combining financial support with comprehensive business 
+                mentorship and ongoing guidance.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
