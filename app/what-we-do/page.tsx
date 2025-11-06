@@ -58,7 +58,7 @@ export default function WhatWeDoPage() {
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
                       <p className="text-muted-foreground leading-relaxed">
-                        <span className="font-semibold text-foreground">Academic Training:</span> Business and entrepreneurship training with C.U.T (Chinhoyi University of Technology)
+                        <span className="font-semibold text-foreground">Enterprise Training:</span> Business and entrepreneurship training with C.U.T (Chinhoyi University of Technology)
                       </p>
                     </div>
                   </div>
@@ -77,12 +77,12 @@ export default function WhatWeDoPage() {
                     <span className="text-primary">3.</span> Zero-Deposit Credit
                   </h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Flexible payment terms (3, 6, or 9 months) available for:
+                    Flexible payment terms (6-36 months) available for:
                   </p>
                   <div className="grid md:grid-cols-2 gap-3">
                     <div className="flex items-center gap-2 text-sm">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-muted-foreground">SSB-paid civil servants</span>
+                      <span className="text-muted-foreground">SSB civil servants</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary" />
@@ -112,7 +112,7 @@ export default function WhatWeDoPage() {
                     <span className="text-secondary">4.</span> Monitoring & Evaluation
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    We track your progress and help fix early challenges to ensure your business stays on the right path.
+                    We track your progress and help fix early challenges to ensure your business stays on the right path when you assign relatives to the tasks.
                   </p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ export default function WhatWeDoPage() {
                     <span className="text-primary">5.</span> Ongoing Support
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    We don't just start you off — we follow through so your dreams get the chance to live and thrive.
+                    We don't just start you off — we will link you to business loans for your future working capital requirements to those who will start a banking record.
                   </p>
                 </div>
               </div>

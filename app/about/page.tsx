@@ -222,40 +222,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-    
-
-      {/* Partners */}
-      <section className="px-4 py-12">
-        <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-foreground">
-              Our <span className="text-primary">Partners</span>
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Working together to create opportunities for Zimbabwean civil servants entrepreneurs
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {[
-              "Salary Services Bureau of Zimbabwe",
-              "Zb Financial Holdings",
-              "Small Enterprise Development Corporation",
-              "National Building Society Bank of Zimbabwe",
-            ].map((partner, index) => (
-              <Card
-                key={index}
-                className="p-6 bg-card/50 backdrop-blur border-border hover:border-primary/50 transition-all flex items-center justify-center text-center"
-              >
-                <div>
-                  <Globe className="w-8 h-8 text-primary mx-auto mb-2" />
-                  <p className="text-sm font-medium text-foreground">{partner}</p>
-                </div>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

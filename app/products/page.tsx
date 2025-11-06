@@ -37,6 +37,10 @@ export default function ProductsPage() {
       name: "Fashion & Apparel Pack",
       image: "/placeholder.jpg",
     },
+     {
+      name: "Fashion & Apparel Pack",
+      image: "/placeholder.jpg",
+    },
   ]
 
   return (
@@ -85,11 +89,16 @@ export default function ProductsPage() {
                   </div>
                 </div>
 
-                {/* Apply Now Button */}
-                <div className="p-6">
+                {/* Buttons */}
+                <div className="p-6 space-y-3">
                   <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white text-lg py-6">
                     <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
-                      Apply Now <ArrowRight className="ml-2 w-5 h-5" />
+                      Apply on credit now <ArrowRight className="ml-2 w-5 h-5" />
+                    </a>
+                  </Button>
+                  <Button asChild variant="outline" className="w-full text-lg py-6">
+                    <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
+                      Buy with cash now <ArrowRight className="ml-2 w-5 h-5" />
                     </a>
                   </Button>
                 </div>
@@ -98,43 +107,7 @@ export default function ProductsPage() {
           </div>
         </div>
       </section>
-
-      {/* Additional Info */}
-      <section className="px-4 py-12">
-        <div className="container mx-auto max-w-4xl">
-          <Card className="p-8 bg-gradient-to-br from-secondary/10 to-primary/10 border-secondary/30">
-            <h2 className="text-3xl font-bold mb-6 text-center text-foreground">
-              Why Choose <span className="text-primary">MicroBiz Starter Packs?</span>
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Flexible Repayment</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Repayment terms designed to match your business cash flow, with grace periods available.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Fast Approval</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Get approved in 3-5 business days and receive your funding within 48 hours.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Business Support</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Access to mentorship, training, and ongoing business advisory services.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">No Hidden Fees</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  Transparent pricing with no surprise charges or hidden costs.
-                </p>
-              </div>
-            </div>
-          </Card>
-        </div>
-      </section>
     </div>
   )
 }
+
