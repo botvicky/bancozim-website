@@ -19,7 +19,7 @@ function AnimatedText() {
   }, [])
 
   return (
-    <span className="inline-block relative h-[1.2em] min-w-[200px] align-middle">
+    <span className="inline-block relative h-[1.2em] w-[220px] align-middle">
       {words.map((word, index) => (
         <span
           key={word}
@@ -131,12 +131,28 @@ export default function HomePage() {
             </div>
             
             {/* Right Image Grid */}
+                        {/* Right Visual - Stacked Images Collage */}
             <div className="relative h-[500px] lg:h-[600px]">
-              {/* Main featured image */}
-              <div className="absolute top-0 right-0 w-[70%] h-[55%] rounded-2xl overflow-hidden shadow-2xl border-4 border-primary/30 glow-orange group">
+              {/* Main large image - top right */}
+              <div className="absolute top-0 right-0 w-[60%] h-[55%] rounded-2xl overflow-hidden shadow-2xl border-4 border-primary/30 glow-orange group">
                 <Image
-                  src="/products/lounge-ware.png"
-                  alt="Modern Lounge Furniture"
+                  src="/products/rsz_2bedroom-2-1.webp"
+                  alt="Modern Bedroom Furniture"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <p className="text-white font-semibold text-lg">Bedroom Ware</p>
+                  <p className="text-white/80 text-sm">Complete furniture sets</p>
+                </div>
+              </div>
+
+              {/* Medium image - middle left */}
+              <div className="absolute top-[15%] left-0 w-[50%] h-[40%] rounded-2xl overflow-hidden shadow-2xl border-4 border-secondary/30 glow-blue group z-10">
+                <Image
+                  src="/products/bed.jpeg"
+                  alt="Lounge Furniture"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -150,22 +166,22 @@ export default function HomePage() {
               {/* Secondary image - bottom left */}
               <div className="absolute bottom-0 left-0 w-[55%] h-[45%] rounded-2xl overflow-hidden shadow-2xl border-4 border-secondary/30 glow-blue group">
                 <Image
-                  src="/products/kitchen-ware.png"
+                  src="/products/laptop.jpeg"
                   alt="Modern Kitchen Appliances"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-white font-semibold">Kitchen Ware</p>
-                  <p className="text-white/80 text-sm">Modern convenience</p>
+                  <p className="text-white font-semibold">Electronics</p>
+                  <p className="text-white/80 text-sm">Latest technology</p>
                 </div>
               </div>
 
               {/* Small accent image - middle right */}
               <div className="absolute top-[45%] right-[5%] w-[35%] h-[30%] rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 group z-20">
                 <Image
-                  src="/products/solar-systems.png"
+                  src="/products/solar-panels-roof-solar-cell.jpg"
                   alt="Solar Energy Solutions"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -206,37 +222,37 @@ export default function HomePage() {
                 {
                   title: "Communications Gadgets",
                   description: "Latest smartphones, tablets, and communication devices.",
-                  image: "/products/communications.png",
+                  image: "/products/iphone14.webp",
                   tag: "Electronics",
                 },
                 {
                   title: "Bedroom Ware",
                   description: "Complete bedroom furniture sets and accessories.",
-                  image: "/products/bedroom-ware.png",
+                  image: "/products/bed 2.jpeg",
                   tag: "Furniture",
                 },
                 {
                   title: "Lounge Ware",
                   description: "Comfortable and stylish living room furniture.",
-                  image: "/products/lounge-ware.png",
+                  image: "/products/rsz_2bedroom-2-1.webp",
                   tag: "Furniture",
                 },
                 {
                   title: "Kitchen Ware",
                   description: "Modern kitchen appliances and cookware sets.",
-                  image: "/products/kitchen-ware.png",
+                  image: "/products/pc2.jpeg",
                   tag: "Kitchen",
                 },
                 {
                   title: "Solar Systems",
                   description: "Sustainable solar energy solutions for your home.",
-                  image: "/products/solar-systems.png",
+                  image: "/products/Mecer-portable-inverter-1024x682.webp",
                   tag: "Energy",
                 },
                 {
                   title: "Motor Care",
                   description: "Automotive accessories and car care products.",
-                  image: "/products/motor-care.png",
+                  image: "/products/router.jpeg",
                   tag: "Automotive",
                 },
               ]
@@ -244,46 +260,46 @@ export default function HomePage() {
                   {
                     title: "Communications Gadgets",
                     description: "Latest smartphones, tablets, and communication devices.",
-                    image: "/products/communications.png",
+                    image: "/products/iphone14.webp",
                     tag: "Electronics",
                   },
                   {
                     title: "Bedroom Ware",
                     description: "Complete bedroom furniture sets and accessories.",
-                    image: "/products/bedroom-ware.png",
+                    image: "/products/bed 2.jpeg",
                     tag: "Furniture",
                   },
                   {
                     title: "Lounge Ware",
                     description: "Comfortable and stylish living room furniture.",
-                    image: "/products/lounge-ware.png",
+                    image: "/products/rsz_2bedroom-2-1.webp",
                     tag: "Furniture",
                   },
                   {
                     title: "Kitchen Ware",
                     description: "Modern kitchen appliances and cookware sets.",
-                    image: "/products/kitchen-ware.png",
+                    image: "/products/pc2.jpeg",
                     tag: "Kitchen",
                   },
                   {
                     title: "Solar Systems",
                     description: "Sustainable solar energy solutions for your home.",
-                    image: "/products/solar-systems.png",
+                    image: "/products/Mecer-portable-inverter-1024x682.webp",
                     tag: "Energy",
                   },
                   {
                     title: "Motor Care",
                     description: "Automotive accessories and car care products.",
-                    image: "/products/motor-care.png",
+                    image: "/products/router.jpeg",
                     tag: "Automotive",
                   },
                 ])
                 .map((product, index) => (
                   <Card
                     key={index}
-                    className="flex-shrink-0 w-[320px] bg-card backdrop-blur border-border/50 shadow-lg overflow-hidden group hover:shadow-2xl transition-all duration-300"
+                    className="flex-shrink-0 w-[280px] bg-card backdrop-blur border-border/50 shadow-lg overflow-hidden group hover:shadow-2xl transition-all duration-300 rounded-none"
                   >
-                    <div className="relative h-56 bg-gradient-to-br from-primary/10 to-secondary/10 overflow-hidden">
+                    <div className="relative h-48 bg-gradient-to-br from-primary/10 to-secondary/10 overflow-hidden">
                       <Image
                         src={product.image}
                         alt={product.title}
@@ -313,96 +329,7 @@ export default function HomePage() {
         </div>
       </section>
 
-{/* Stats Section */}
-  <section className="py-20 px-4 bg-gradient-to-b from-secondary/5 to-transparent">
-    <div className="container mx-auto">
-      <div className="text-center mb-12">
-    <h2 className="text-4xl md:text-5xl font-bold mb-4">
-      Our <span className="text-primary">Impact</span>
-    </h2>
-    <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-      Real numbers that showcase our commitment to improving quality of life through superior homeware
-    </p>
-      </div>
 
-      <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-    <Card className="p-8 text-center bg-card/50 backdrop-blur border-border/50 hover:border-primary/50 transition-all duration-300 group">
-      <div className="mb-4 flex justify-center">
-        <div className="p-4 rounded-full bg-primary/10 group-hover:bg-primary/20 transition-colors">
-      <Users className="w-8 h-8 text-primary" />
-        </div>
-      </div>
-      <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">
-        {1200 + Math.floor((new Date().getTime() - new Date('2025-11-06').getTime()) / (1000 * 60 * 60 * 24)) * 25}
-      </div>
-      <p className="text-muted-foreground font-medium">Happy Customers</p>
-    </Card>
-
-    <Card className="p-8 text-center bg-card/50 backdrop-blur border-border/50 hover:border-secondary/50 transition-all duration-300 group">
-      <div className="mb-4 flex justify-center">
-        <div className="p-4 rounded-full bg-secondary/10 group-hover:bg-secondary/20 transition-colors">
-      <TrendingUp className="w-8 h-8 text-secondary" />
-        </div>
-      </div>
-      <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">98%</div>
-      <p className="text-muted-foreground font-medium">Customer Satisfaction</p>
-    </Card>
-
-    <Card className="p-8 text-center bg-card/50 backdrop-blur border-border/50 hover:border-primary/50 transition-all duration-300 group">
-      <div className="mb-4 flex justify-center">
-        <div className="p-4 rounded-full bg-primary/10 group-hover:bg-primary/20 transition-colors">
-      <Rocket className="w-8 h-8 text-primary" />
-        </div>
-      </div>
-      <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">5+</div>
-      <p className="text-muted-foreground font-medium">Years of Excellence</p>
-    </Card>
-      </div>
-    </div>
-  </section>
-
-  {/* How to Get Started */}
-      {/*<section className="py-20 px-4">
-        <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-              How to <span className="text-primary">Get Started</span>
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Starting your journey with MicroBiz is simple and straightforward
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {[
-              {
-                step: "01",
-                title: "Browse Our Products",
-                description: "Explore our range of microfinancing solutions tailored for different business needs.",
-              },
-              {
-                step: "02",
-                title: "Submit Your Application",
-                description: "Fill out a simple application form on our partner portal with your business details.",
-              },
-              {
-                step: "03",
-                title: "Get Funded & Grow",
-                description: "Once approved, receive your funding and start building your dream business.",
-              },
-            ].map((item, index) => (
-              <div key={index} className="relative">
-                <div className="text-6xl font-bold text-secondary/20 mb-4">{item.step}</div>
-                <h3 className="text-xl font-semibold mb-2 text-foreground">{item.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{item.description}</p>
-                {index < 2 && (
-                  <ArrowRight className="hidden md:block absolute top-8 -right-4 w-8 h-8 text-secondary/30" />
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>*/}
     </div>
   )
 }

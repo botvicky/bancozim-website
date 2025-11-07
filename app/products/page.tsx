@@ -7,32 +7,32 @@ export default function ProductsPage() {
   const products = [
     {
       name: "Communications Gadgets",
-      image: "/products/communications.png",
+      image: "/products/iphone14.webp",
       description: "Latest smartphones, tablets, and communication devices to keep you connected.",
     },
     {
       name: "Bedroom Ware",
-      image: "/products/bedroom-ware.png",
+      image: "/products/bed 2.jpeg",
       description: "Complete bedroom furniture sets including beds, wardrobes, and dressers.",
     },
     {
       name: "Lounge Ware",
-      image: "/products/lounge-ware.png",
+      image: "/products/rsz_2bedroom-2-1.webp",
       description: "Comfortable and stylish living room furniture for the whole family.",
     },
     {
       name: "Kitchen Ware",
-      image: "/products/kitchen-ware.png",
+      image: "/products/laptop.jpeg",
       description: "Modern kitchen appliances and cookware for efficient cooking.",
     },
     {
       name: "Solar Systems",
-      image: "/products/solar-systems.png",
+      image: "/products/solar-panels-roof-solar-cell.jpg",
       description: "Sustainable solar energy solutions to power your home efficiently.",
     },
     {
       name: "Motor Care",
-      image: "/products/motor-care.png",
+      image: "/products/router.jpeg",
       description: "Automotive accessories and car care products for vehicle maintenance.",
     },
   ]
@@ -57,16 +57,16 @@ export default function ProductsPage() {
       </section>
 
       {/* Products Grid */}
-      <section className="px-4 py-12">
+      <section className="px-6 md:px-8 lg:px-12 py-12">
         <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {products.map((product, index) => (
               <Card
                 key={index}
-                className="overflow-hidden bg-card border-border hover:border-primary/50 transition-all duration-300 group shadow-lg hover:shadow-2xl"
+                className="overflow-hidden bg-card border-border hover:border-primary/50 transition-all duration-300 group shadow-lg hover:shadow-2xl rounded-none"
               >
                 {/* Image Section - Full width */}
-                <div className="relative h-80 w-full bg-gradient-to-br from-primary/20 to-secondary/20 overflow-hidden">
+                <div className="relative h-64 w-full bg-gradient-to-br from-primary/20 to-secondary/20 overflow-hidden">
                   <Image
                     src={product.image}
                     alt={product.name}
@@ -93,11 +93,11 @@ export default function ProductsPage() {
                       Buy on hire purchase <ArrowRight className="ml-2 w-5 h-5" />
                     </a>
                   </Button>
-                  <Button asChild variant="outline" className="w-full text-lg py-6">
+                  {/* <Button asChild variant="outline" className="w-full text-lg py-6">
                     <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
                       Buy with cash <ArrowRight className="ml-2 w-5 h-5" />
                     </a>
-                  </Button>
+                  </Button> */}
                 </div>
               </Card>
             ))}
