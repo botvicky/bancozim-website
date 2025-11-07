@@ -14,9 +14,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MicroBiz Zimbabwe - Empowering Small Businesses",
+  title: "BancoZim - Quality Homeware Solutions",
   description:
-    "MicroBiz Zimbabwe helps small business owners start and expand their businesses through microfinancing solutions from BancoZim Holdings.",
+    "To increase our customer's quality of life through the delivery of superior, modern homeware and allied products. Market leader in hire purchase microcredit solutions in Zimbabwe.",
   generator: "v0.app",
 }
 

@@ -28,8 +28,8 @@ export function Navigation() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-32 sm:w-40 h-10 sm:h-12 flex items-center justify-center">
               <Image
-                src="/microbiz-logo.png"
-                alt="MicroBiz Zimbabwe"
+                src="/bancozim-logo.png"
+                alt="BancoZim"
                 width={160}
                 height={48}
                 className="object-contain brightness-[1.3] contrast-[1.1] transition-all duration-300 group-hover:brightness-[1.5] group-hover:contrast-[1.2]"
@@ -51,7 +51,7 @@ export function Navigation() {
             ))}
             <Button asChild className="bg-primary hover:bg-primary/90 text-white">
               <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
-                Apply Now
+                Shop Now
               </a>
             </Button>
           </div>
@@ -77,7 +77,7 @@ export function Navigation() {
             ))}
             <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white">
               <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
-                Apply Now
+                Shop Now
               </a>
             </Button>
           </div>

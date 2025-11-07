@@ -6,40 +6,34 @@ import { ArrowRight } from "lucide-react"
 export default function ProductsPage() {
   const products = [
     {
-      name: "Retail Starter Pack",
-      image: "/placeholder.jpg",
+      name: "Communications Gadgets",
+      image: "/products/communications.png",
+      description: "Latest smartphones, tablets, and communication devices to keep you connected.",
     },
     {
-      name: "Animal Husbandry Pack",
-      image: "/placeholder.jpg",
+      name: "Bedroom Ware",
+      image: "/products/bedroom-ware.png",
+      description: "Complete bedroom furniture sets including beds, wardrobes, and dressers.",
     },
     {
-      name: "Tech & Services Pack",
-      image: "/placeholder.jpg",
+      name: "Lounge Ware",
+      image: "/products/lounge-ware.png",
+      description: "Comfortable and stylish living room furniture for the whole family.",
     },
     {
-      name: "Food & Catering Pack",
-      image: "/placeholder.jpg",
+      name: "Kitchen Ware",
+      image: "/products/kitchen-ware.png",
+      description: "Modern kitchen appliances and cookware for efficient cooking.",
     },
     {
-      name: "Beauty & Salon Pack",
-      image: "/placeholder.jpg",
+      name: "Solar Systems",
+      image: "/products/solar-systems.png",
+      description: "Sustainable solar energy solutions to power your home efficiently.",
     },
     {
-      name: "Construction & Building Pack",
-      image: "/placeholder.jpg",
-    },
-    {
-      name: "Transport & Logistics Pack",
-      image: "/placeholder.jpg",
-    },
-    {
-      name: "Fashion & Apparel Pack",
-      image: "/placeholder.jpg",
-    },
-     {
-      name: "Fashion & Apparel Pack",
-      image: "/placeholder.jpg",
+      name: "Motor Care",
+      image: "/products/motor-care.png",
+      description: "Automotive accessories and car care products for vehicle maintenance.",
     },
   ]
 
@@ -52,11 +46,11 @@ export default function ProductsPage() {
         <div className="container mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto space-y-6">
             <h1 className="text-5xl md:text-6xl font-bold text-balance">
-              Business   <span className="text-secondary text-glow-blue">Starter Pack Catalogue</span>
+              Quality <span className="text-secondary text-glow-blue">Homeware Catalogue</span>
             </h1>
             <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-              Choose the perfect financing package for your business type. Each pack is tailored to provide exactly what
-              you need to launch and grow successfully.
+              Discover our comprehensive range of modern homeware and allied products. All available through flexible 
+              hire purchase solutions that make quality living accessible to every Zimbabwean family.
             </p>
           </div>
         </div>
@@ -86,6 +80,9 @@ export default function ProductsPage() {
                     <h3 className="text-2xl font-bold text-white drop-shadow-lg">
                       {product.name}
                     </h3>
+                    <p className="text-white/90 text-sm mt-2 drop-shadow">
+                      {product.description}
+                    </p>
                   </div>
                 </div>
 
@@ -93,12 +90,12 @@ export default function ProductsPage() {
                 <div className="p-6 space-y-3">
                   <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white text-lg py-6">
                     <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
-                      Apply on credit now <ArrowRight className="ml-2 w-5 h-5" />
+                      Buy on hire purchase <ArrowRight className="ml-2 w-5 h-5" />
                     </a>
                   </Button>
                   <Button asChild variant="outline" className="w-full text-lg py-6">
                     <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
-                      Buy with cash now <ArrowRight className="ml-2 w-5 h-5" />
+                      Buy with cash <ArrowRight className="ml-2 w-5 h-5" />
                     </a>
                   </Button>
                 </div>

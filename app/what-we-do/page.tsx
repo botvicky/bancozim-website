@@ -15,13 +15,13 @@ export default function WhatWeDoPage() {
               What <span className="text-primary">We Do</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We help people become small business owners through starter packs and five key enablers
+              We provide quality homeware and allied products through innovative hire purchase solutions, making modern living accessible to every Zimbabwean family
             </p>
           </div>
 
-          {/* Five Key Enablers */}
+          {/* Five Key Service Areas */}
           <div className="space-y-8">
-            {/* Enabler 1 */}
+            {/* Service 1 */}
             <div className="group">
               <div className="flex items-start gap-6 p-6 rounded-2xl bg-card/30 backdrop-blur border border-primary/20 hover:border-primary/50 transition-all duration-300">
                 <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -29,16 +29,16 @@ export default function WhatWeDoPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3 text-foreground">
-                    <span className="text-primary">1.</span> Business Tools
+                    <span className="text-primary">1.</span> Quality Product Range
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Equipment, machinery, raw materials, or stock to kickstart your business journey.
+                    Comprehensive selection of communications gadgets, bedroom ware, lounge ware, kitchen ware, solar systems, and motor care products.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Enabler 2 */}
+            {/* Service 2 */}
             <div className="group">
               <div className="flex items-start gap-6 p-6 rounded-2xl bg-card/30 backdrop-blur border border-secondary/20 hover:border-secondary/50 transition-all duration-300">
                 <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-secondary/30 to-secondary/10 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -46,19 +46,19 @@ export default function WhatWeDoPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3 text-foreground">
-                    <span className="text-secondary">2.</span> Training & Education
+                    <span className="text-secondary">2.</span> Customer Education & Support
                   </h3>
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
                       <p className="text-muted-foreground leading-relaxed">
-                        <span className="font-semibold text-foreground">Hands-on Learning:</span> Practical lessons from seasoned business owners (our MicroBiz Legends)
+                        <span className="font-semibold text-foreground">Product Guidance:</span> Expert advice on selecting the right products for your home
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
                       <p className="text-muted-foreground leading-relaxed">
-                        <span className="font-semibold text-foreground">Enterprise Training:</span> Business and entrepreneurship training with C.U.T (Chinhoyi University of Technology)
+                        <span className="font-semibold text-foreground">Financial Literacy:</span> Education on hire purchase terms and financial planning
                       </p>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ export default function WhatWeDoPage() {
               </div>
             </div>
 
-            {/* Enabler 3 */}
+            {/* Service 3 */}
             <div className="group">
               <div className="flex items-start gap-6 p-6 rounded-2xl bg-card/30 backdrop-blur border border-primary/20 hover:border-primary/50 transition-all duration-300">
                 <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -74,34 +74,34 @@ export default function WhatWeDoPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3 text-foreground">
-                    <span className="text-primary">3.</span> Zero-Deposit Credit
+                    <span className="text-primary">3.</span> Flexible Hire Purchase Plans
                   </h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Flexible payment terms (6-36 months) available for:
+                    Accessible payment terms designed for Zimbabwean families:
                   </p>
                   <div className="grid md:grid-cols-2 gap-3">
                     <div className="flex items-center gap-2 text-sm">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-muted-foreground">SSB civil servants</span>
+                      <span className="text-muted-foreground">Minimal down payments</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-muted-foreground">All government pensioners</span>
+                      <span className="text-muted-foreground">Flexible repayment periods</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-muted-foreground">Direct deduction employees</span>
+                      <span className="text-muted-foreground">Competitive interest rates</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-muted-foreground">ZB Bank account holders</span>
+                      <span className="text-muted-foreground">Quick approval process</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Enabler 4 */}
+            {/* Service 4 */}
             <div className="group">
               <div className="flex items-start gap-6 p-6 rounded-2xl bg-card/30 backdrop-blur border border-secondary/20 hover:border-secondary/50 transition-all duration-300">
                 <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-secondary/30 to-secondary/10 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -109,16 +109,16 @@ export default function WhatWeDoPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3 text-foreground">
-                    <span className="text-secondary">4.</span> Monitoring & Evaluation
+                    <span className="text-secondary">4.</span> Digital Platform & Branches
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    We track your progress and help fix early challenges to ensure your business stays on the right path when you assign relatives to the tasks.
+                    Trans-provincial outreach through our physical branch networks and comprehensive digital online presence for easy access to our products and services.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Enabler 5 */}
+            {/* Service 5 */}
             <div className="group">
               <div className="flex items-start gap-6 p-6 rounded-2xl bg-card/30 backdrop-blur border border-primary/20 hover:border-primary/50 transition-all duration-300">
                 <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -126,10 +126,10 @@ export default function WhatWeDoPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3 text-foreground">
-                    <span className="text-primary">5.</span> Ongoing Support
+                    <span className="text-primary">5.</span> After-Sales Support
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    We don't just start you off — we will link you to business loans for your future working capital requirements to those who will start a banking record.
+                    Comprehensive warranty support, maintenance services, and customer care to ensure your satisfaction and create meaningful value for all stakeholders.
                   </p>
                 </div>
               </div>
@@ -150,17 +150,16 @@ export default function WhatWeDoPage() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
-              Let's Launch Your Business <span className="text-secondary text-glow-blue">Into a New Day</span>
+              Transform Your Home <span className="text-secondary text-glow-blue">With Quality Living</span>
             </h2>
 
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed">
-              Partner with us to build futuristic strategies, unlock growth, and take your business light-years ahead of
-              the competition.
+              Partner with BancoZim to access superior, modern homeware through flexible hire purchase solutions that make quality living affordable for every Zimbabwean family.
             </p>
 
             <Button asChild size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-lg px-8 mt-6">
               <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
-                Get Started <ArrowRight className="ml-2 w-5 h-5" />
+                Shop Now <ArrowRight className="ml-2 w-5 h-5" />
               </a>
             </Button>
           </div>

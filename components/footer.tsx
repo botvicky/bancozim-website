@@ -12,8 +12,8 @@ export function Footer() {
             <Link href="/" className="flex items-center justify-center mb-4 group">
               <div className="relative w-64 h-20 flex items-center justify-center">
                 <Image
-                  src="/microbiz-logo.png"
-                  alt="MicroBiz Zimbabwe"
+                  src="/bancozim-logo.png"
+                  alt="BancoZim"
                   width={256}
                   height={80}
                   className="object-contain brightness-[1.3] contrast-[1.1] transition-all duration-300 group-hover:brightness-[1.5] group-hover:contrast-[1.2]"
@@ -21,7 +21,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed text-center">
-              Empowering Zimbabwean entrepreneurs through innovative microfinancing solutions.
+              Increasing your quality of life through superior, modern homeware and allied products.
             </p>
             <div className="flex items-center justify-center gap-4 mt-4">
               <a
@@ -115,7 +115,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Apply Now
+                  Shop Now
                 </a>
               </li>
             </ul>

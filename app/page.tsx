@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card"
 import { Rocket, TrendingUp, Users, Zap, ArrowRight } from "lucide-react"
 
 function AnimatedText() {
-  const words = ["Ngwavha  ", "Spina", "Hustle"]
+  const words = ["Quality", "Modern", "Affordable"]
   const [currentIndex, setCurrentIndex] = React.useState(0)
 
   React.useEffect(() => {
@@ -54,21 +54,21 @@ export default function HomePage() {
 
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-balance leading-tight">
-              Start your business today!{" "}
+              Transform your home with{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-primary to-secondary text-glow-blue">
-                Be your own boss.
+                <AnimatedText /> homeware.
               </span>
               </h1>
 
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              We help you start your own small business and go beyond limits by providing innovative  solutions, futuristic
-              strategies, and measurable results that make you live life on your terms
+              Increase your quality of life through our superior, modern homeware and allied products. 
+              Accessible through flexible hire purchase solutions that make quality living affordable for everyone.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8 shadow-lg">
                 <a href="https://bancosystem.co.zw" target="_blank" rel="noopener noreferrer">
-                Get Started <ArrowRight className="ml-2 w-5 h-5" />
+                Shop Now <ArrowRight className="ml-2 w-5 h-5" />
                 </a>
               </Button>
               <Button
@@ -77,7 +77,7 @@ export default function HomePage() {
                 variant="outline"
                 className="text-lg px-8 border-secondary text-secondary hover:bg-secondary/10 bg-transparent"
               >
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/products">View Products</Link>
               </Button>
               </div>
 
@@ -135,44 +135,44 @@ export default function HomePage() {
               {/* Main featured image */}
               <div className="absolute top-0 right-0 w-[70%] h-[55%] rounded-2xl overflow-hidden shadow-2xl border-4 border-primary/30 glow-orange group">
                 <Image
-                  src="/hustles/food-truck.png"
-                  alt="Food Truck Business"
+                  src="/products/lounge-ware.png"
+                  alt="Modern Lounge Furniture"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-white font-semibold text-lg">Mobile Food Services</p>
-                  <p className="text-white/80 text-sm">Turn your passion into profit</p>
+                  <p className="text-white font-semibold text-lg">Lounge Ware</p>
+                  <p className="text-white/80 text-sm">Transform your living space</p>
                 </div>
               </div>
 
               {/* Secondary image - bottom left */}
               <div className="absolute bottom-0 left-0 w-[55%] h-[45%] rounded-2xl overflow-hidden shadow-2xl border-4 border-secondary/30 glow-blue group">
                 <Image
-                  src="/hustles/hair-barbering.png"
-                  alt="Hair Barbering"
+                  src="/products/kitchen-ware.png"
+                  alt="Modern Kitchen Appliances"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-white font-semibold">Hair & Beauty</p>
-                  <p className="text-white/80 text-sm">Style meets success</p>
+                  <p className="text-white font-semibold">Kitchen Ware</p>
+                  <p className="text-white/80 text-sm">Modern convenience</p>
                 </div>
               </div>
 
               {/* Small accent image - middle right */}
               <div className="absolute top-[45%] right-[5%] w-[35%] h-[30%] rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 group z-20">
                 <Image
-                  src="/hustles/tomato-farming.png"
-                  alt="Farming"
+                  src="/products/solar-systems.png"
+                  alt="Solar Energy Solutions"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                 <div className="absolute bottom-2 left-2 right-2">
-                  <p className="text-white font-semibold text-sm">Agriculture</p>
+                  <p className="text-white font-semibold text-sm">Solar Systems</p>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Ngwavha like others - Hustles Showcase */}
+      {/* Product Categories Showcase */}
       <section className="py-20 px-4 relative overflow-hidden">
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/5 to-transparent" />
@@ -188,14 +188,14 @@ export default function HomePage() {
         <div className="container mx-auto relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <AnimatedText /> <span className="text-primary ml-4">like others!!!</span>
+              <AnimatedText /> <span className="text-primary ml-4">homeware for every home!!!</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Real businesses, real success stories. See what&apos;s possible when you partner with MicroBiz
+              Discover our extensive range of quality homeware and appliances, all available through flexible hire purchase plans
             </p>
           </div>
 
-          {/* Scrolling Hustles */}
+          {/* Scrolling Products */}
           <div className="relative">
             {/* Gradient overlays for fade effect */}
             <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
@@ -204,101 +204,89 @@ export default function HomePage() {
             <div className="flex gap-6 animate-scroll-right">
               {[
                 {
-                  title: "Hair Barbering",
-                  description: "Professional hair cutting and styling services for the community.",
-                  image: "/hustles/hair-barbering.png",
-                  tag: "Service",
+                  title: "Communications Gadgets",
+                  description: "Latest smartphones, tablets, and communication devices.",
+                  image: "/products/communications.png",
+                  tag: "Electronics",
                 },
                 {
-                  title: "Car Wash",
-                  description: "Mobile and stationary car cleaning services.",
-                  image: "/hustles/car-wash.png",
-                  tag: "Service",
+                  title: "Bedroom Ware",
+                  description: "Complete bedroom furniture sets and accessories.",
+                  image: "/products/bedroom-ware.png",
+                  tag: "Furniture",
                 },
                 {
-                  title: "Tomato Farming",
-                  description: "Fresh tomato production for local markets.",
-                  image: "/hustles/tomato-farming.png",
-                  tag: "Agriculture",
+                  title: "Lounge Ware",
+                  description: "Comfortable and stylish living room furniture.",
+                  image: "/products/lounge-ware.png",
+                  tag: "Furniture",
                 },
                 {
-                  title: "Cabbage Farming",
-                  description: "Quality cabbage cultivation for retail and wholesale.",
-                  image: "/hustles/cabbage-farming.png",
-                  tag: "Agriculture",
+                  title: "Kitchen Ware",
+                  description: "Modern kitchen appliances and cookware sets.",
+                  image: "/products/kitchen-ware.png",
+                  tag: "Kitchen",
                 },
                 {
-                  title: "Chicken Rearing",
-                  description: "Poultry farming for eggs and meat production.",
-                  image: "/hustles/chicken-rearing.png",
-                  tag: "Agriculture",
+                  title: "Solar Systems",
+                  description: "Sustainable solar energy solutions for your home.",
+                  image: "/products/solar-systems.png",
+                  tag: "Energy",
                 },
                 {
-                  title: "Construction",
-                  description: "Building and renovation services.",
-                  image: "/hustles/construction.png",
-                  tag: "Construction",
-                },
-                {
-                  title: "Food Truck",
-                  description: "Mobile food services and catering.",
-                  image: "/hustles/food-truck.png",
-                  tag: "Food & Beverage",
+                  title: "Motor Care",
+                  description: "Automotive accessories and car care products.",
+                  image: "/products/motor-care.png",
+                  tag: "Automotive",
                 },
               ]
                 .concat([
                   {
-                    title: "Hair Barbering",
-                    description: "Professional hair cutting and styling services for the community.",
-                    image: "/hustles/hair-barbering.png",
-                    tag: "Service",
+                    title: "Communications Gadgets",
+                    description: "Latest smartphones, tablets, and communication devices.",
+                    image: "/products/communications.png",
+                    tag: "Electronics",
                   },
                   {
-                    title: "Car Wash",
-                    description: "Mobile and stationary car cleaning services.",
-                    image: "/hustles/car-wash.png",
-                    tag: "Service",
+                    title: "Bedroom Ware",
+                    description: "Complete bedroom furniture sets and accessories.",
+                    image: "/products/bedroom-ware.png",
+                    tag: "Furniture",
                   },
                   {
-                    title: "Tomato Farming",
-                    description: "Fresh tomato production for local markets.",
-                    image: "/hustles/tomato-farming.png",
-                    tag: "Agriculture",
+                    title: "Lounge Ware",
+                    description: "Comfortable and stylish living room furniture.",
+                    image: "/products/lounge-ware.png",
+                    tag: "Furniture",
                   },
                   {
-                    title: "Cabbage Farming",
-                    description: "Quality cabbage cultivation for retail and wholesale.",
-                    image: "/hustles/cabbage-farming.png",
-                    tag: "Agriculture",
+                    title: "Kitchen Ware",
+                    description: "Modern kitchen appliances and cookware sets.",
+                    image: "/products/kitchen-ware.png",
+                    tag: "Kitchen",
                   },
                   {
-                    title: "Chicken Rearing",
-                    description: "Poultry farming for eggs and meat production.",
-                    image: "/hustles/chicken-rearing.png",
-                    tag: "Agriculture",
+                    title: "Solar Systems",
+                    description: "Sustainable solar energy solutions for your home.",
+                    image: "/products/solar-systems.png",
+                    tag: "Energy",
                   },
                   {
-                    title: "Construction",
-                    description: "Building and renovation services.",
-                    image: "/hustles/construction.png",
-                    tag: "Construction",
-                  },
-                  {
-                    title: "Food Truck",
-                    description: "Mobile food services and catering.",
-                    image: "/hustles/food-truck.png",
-                    tag: "Food & Beverage",
+                    title: "Motor Care",
+                    description: "Automotive accessories and car care products.",
+                    image: "/products/motor-care.png",
+                    tag: "Automotive",
                   },
                 ])
-                .map((hustle, index) => (
+                .map((product, index) => (
                   <Card
                     key={index}
                     className="flex-shrink-0 w-[320px] bg-card backdrop-blur border-border/50 shadow-lg overflow-hidden group hover:shadow-2xl transition-all duration-300"
                   >
                     <div className="relative h-56 bg-gradient-to-br from-primary/10 to-secondary/10 overflow-hidden">
                       <Image
-                        src={hustle.image}
-                        alt={hustle.title}
+                        src={product.image}
+                        alt={product.title}
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-500"
                       />
@@ -306,14 +294,14 @@ export default function HomePage() {
                       
                       {/* Tag badge */}
                       <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-secondary/90 backdrop-blur-sm text-white text-xs font-medium">
-                        {hustle.tag}
+                        {product.tag}
                       </div>
                     </div>
                     <div className="p-6">
                       <h3 className="text-xl font-bold mb-2 text-foreground group-hover:text-primary transition-colors">
-                        {hustle.title}
+                        {product.title}
                       </h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed mb-4">{hustle.description}</p>
+                      <p className="text-sm text-muted-foreground leading-relaxed mb-4">{product.description}</p>
                       <div className="flex items-center text-secondary text-sm font-medium">
                         Learn more <ArrowRight className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                       </div>
@@ -333,7 +321,7 @@ export default function HomePage() {
       Our <span className="text-primary">Impact</span>
     </h2>
     <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-      Real numbers that showcase our commitment to empowering entrepreneurs
+      Real numbers that showcase our commitment to improving quality of life through superior homeware
     </p>
       </div>
 
@@ -345,9 +333,9 @@ export default function HomePage() {
         </div>
       </div>
       <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">
-        {409 + Math.floor((new Date().getTime() - new Date('2025-11-06').getTime()) / (1000 * 60 * 60 * 24)) * 17}
+        {1200 + Math.floor((new Date().getTime() - new Date('2025-11-06').getTime()) / (1000 * 60 * 60 * 24)) * 25}
       </div>
-      <p className="text-muted-foreground font-medium">Website Visitors</p>
+      <p className="text-muted-foreground font-medium">Happy Customers</p>
     </Card>
 
     <Card className="p-8 text-center bg-card/50 backdrop-blur border-border/50 hover:border-secondary/50 transition-all duration-300 group">
@@ -356,8 +344,8 @@ export default function HomePage() {
       <TrendingUp className="w-8 h-8 text-secondary" />
         </div>
       </div>
-      <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">92%</div>
-      <p className="text-muted-foreground font-medium">Success Rate</p>
+      <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">98%</div>
+      <p className="text-muted-foreground font-medium">Customer Satisfaction</p>
     </Card>
 
     <Card className="p-8 text-center bg-card/50 backdrop-blur border-border/50 hover:border-primary/50 transition-all duration-300 group">
@@ -366,8 +354,8 @@ export default function HomePage() {
       <Rocket className="w-8 h-8 text-primary" />
         </div>
       </div>
-      <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">17+</div>
-      <p className="text-muted-foreground font-medium">Funded Clients</p>
+      <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">5+</div>
+      <p className="text-muted-foreground font-medium">Years of Excellence</p>
     </Card>
       </div>
     </div>

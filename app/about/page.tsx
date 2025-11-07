@@ -11,11 +11,10 @@ export default function AboutPage() {
         <div className="container mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto space-y-6">
             <h1 className="text-5xl md:text-6xl font-bold text-balance">
-              About <span className="text-primary text-glow-orange">MicroBiz Zimbabwe</span>
+              About <span className="text-primary text-glow-orange">BancoZim</span>
             </h1>
             <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-              Empowering Zimbabwean entrepreneurs through innovative microfinancing solutions and strategic business
-              support.
+              Increasing your customer's quality of life through the delivery of superior, modern homeware and allied products via innovative hire purchase microcredit solutions.
             </p>
           </div>
         </div>
@@ -27,25 +26,24 @@ export default function AboutPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">About Us</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              MicroBiz Zimbabwe is a fast-growing self-employment program helping people build micro and small
-              businesses. We exist to fight unemployment and give a real alternative to traditional salaried work.
-              The program helps ordinary men, women, and youth become confident entrepreneurs who are well equipped,
-              well resourced, and well trained.
+              BancoZim is Zimbabwe's leading provider of modern homeware and allied products through innovative hire purchase solutions. 
+              We exist to increase our customers' quality of life by making superior, modern homeware accessible to every Zimbabwean family.
+              Our comprehensive product range includes communications gadgets, bedroom ware, lounge ware, kitchen ware, solar systems, and motor care products.
             </p>
           </div>
 
-          {/* Who We Support */}
+          {/* What We Offer */}
           <div className="mb-12">
-            <h3 className="text-3xl font-bold mb-8 text-secondary text-center">Who We Support</h3>
-            <div className="grid md:grid-cols-2 gap-6">
+            <h3 className="text-3xl font-bold mb-8 text-secondary text-center">What We Offer</h3>
+            <div className="grid md:grid-cols-3 gap-6">
               <div className="group">
                 <div className="flex items-start gap-4 p-6 rounded-2xl bg-card/30 backdrop-blur border border-secondary/20 hover:border-secondary/50 transition-all duration-300">
                   <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-secondary/30 to-secondary/10 flex items-center justify-center group-hover:scale-110 transition-transform">
                     <TrendingUp className="w-6 h-6 text-secondary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Income Growth</h4>
-                    <p className="text-sm text-muted-foreground">Employees who want to grow their income.</p>
+                    <h4 className="font-semibold text-foreground mb-2">Communications Gadgets</h4>
+                    <p className="text-sm text-muted-foreground">Latest smartphones, tablets, and communication devices.</p>
                   </div>
                 </div>
               </div>
@@ -56,8 +54,8 @@ export default function AboutPage() {
                     <Briefcase className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Side Hustlers</h4>
-                    <p className="text-sm text-muted-foreground">Anyone starting a side hustle with full support.</p>
+                    <h4 className="font-semibold text-foreground mb-2">Bedroom & Lounge Ware</h4>
+                    <p className="text-sm text-muted-foreground">Complete furniture sets for comfortable living spaces.</p>
                   </div>
                 </div>
               </div>
@@ -68,8 +66,8 @@ export default function AboutPage() {
                     <Heart className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Family Support</h4>
-                    <p className="text-sm text-muted-foreground">People supporting a spouse, child, or dependent to run a small business.</p>
+                    <h4 className="font-semibold text-foreground mb-2">Kitchen Ware</h4>
+                    <p className="text-sm text-muted-foreground">Modern kitchen appliances and cookware for efficient cooking.</p>
                   </div>
                 </div>
               </div>
@@ -80,8 +78,8 @@ export default function AboutPage() {
                     <Users className="w-6 h-6 text-secondary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Pre-Retirees</h4>
-                    <p className="text-sm text-muted-foreground">Those nearing retirement who want purpose and a post-retirement vocation.</p>
+                    <h4 className="font-semibold text-foreground mb-2">Solar Systems</h4>
+                    <p className="text-sm text-muted-foreground">Sustainable solar energy solutions for your home.</p>
                   </div>
                 </div>
               </div>
@@ -92,8 +90,8 @@ export default function AboutPage() {
                     <Shield className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Financial Freedom Seekers</h4>
-                    <p className="text-sm text-muted-foreground">Anyone seeking financial freedom and peace of mind.</p>
+                    <h4 className="font-semibold text-foreground mb-2">Motor Care Products</h4>
+                    <p className="text-sm text-muted-foreground">Automotive accessories and car care products for vehicle maintenance.</p>
                   </div>
                 </div>
               </div>
@@ -104,12 +102,12 @@ export default function AboutPage() {
           <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/10 via-secondary/5 to-primary/10 border border-primary/20 mb-12">
             <h3 className="text-2xl font-bold mb-4 text-foreground text-center">Our Approach</h3>
             <p className="text-muted-foreground leading-relaxed text-center mb-4">
-              Our approach is holistic: we promote a mindset shift and strong financial literacy. We help people
-              become producers of in-demand goods or services — <span className="font-semibold text-foreground">"Zviri kuitisa mari"</span> / <span className="font-semibold text-foreground">"Iziku yenzesa mali"</span>.
+              Our approach is customer-centric: we focus on accessibility and affordability through innovative hire purchase solutions. 
+              We believe everyone deserves access to quality homeware that enhances their daily life, regardless of their current financial situation.
             </p>
             <p className="text-muted-foreground leading-relaxed text-center">
-              Over the years, MicroBiz has helped many previously marginalised people start and grow sustainable
-              incomes — all under one roof.
+              Over the years, BancoZim has helped thousands of Zimbabwean families transform their homes with quality products 
+              through flexible payment plans that work for every budget.
             </p>
           </div>
         </div>
@@ -203,8 +201,8 @@ export default function AboutPage() {
               <h3 className="text-3xl font-bold text-foreground">Our Mission</h3>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Unlocking entrepreneurial potential by delivering accessible resources, expert mentorship, and
-              cutting-edge financing solutions, driving business growth and economic prosperity.
+              To increase our customer's quality of life through the delivery of superior, modern homeware and allied products 
+              and to create meaningful value for all stakeholders.
             </p>
           </div>
 
@@ -215,8 +213,8 @@ export default function AboutPage() {
               <h3 className="text-3xl font-bold text-foreground">Our Vision</h3>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              To be destiny transmutation architects and enablers of legacy building in the micro entrepreneurship
-              ecosystem.
+              To be a market leader in the provision of hire purchase microcredit solutions in Zimbabwe, whose dominance 
+              shall be measured by trans-provincial outreach presence, physical branch networks and digital online visibility.
             </p>
           </div>
         </div>
