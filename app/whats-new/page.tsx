@@ -15,7 +15,7 @@ export default function WhatsNewPage() {
               What's <span className="text-primary text-glow-orange">New</span>
             </h1>
             <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-              Stay updated with the latest news, updates, and upcoming events from MicroBiz Zimbabwe
+              Stay updated with the latest product arrivals, promotions, and upcoming events from BancoZim
             </p>
           </div>
         </div>
@@ -40,11 +40,12 @@ export default function WhatsNewPage() {
                     <span className="px-2 py-1 rounded-full bg-primary/20 text-primary text-xs font-medium">New</span>
                   </div>
                   <h3 className="text-xl font-semibold mb-2 text-foreground">
-                    Increased Funding Limits for All Starter Packs
+                    New Solar System Models Now Available
                   </h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    We're excited to announce that we've increased the maximum funding amounts across all MicroBiz
-                    Starter Packs by 25%. This means more capital to help you grow your business faster!
+                    We're excited to announce the arrival of our latest solar energy systems with increased capacity
+                    and efficiency. Now offering 5kW to 15kW systems with flexible hire purchase plans starting from
+                    just $200/month!
                   </p>
                   <Button variant="link" className="text-primary p-0 h-auto">
                     Learn More <ArrowRight className="ml-1 w-4 h-4" />
@@ -62,10 +63,11 @@ export default function WhatsNewPage() {
                   <div className="flex items-center gap-2 mb-2">
                     <span className="text-xs text-muted-foreground">October 1, 2025</span>
                   </div>
-                  <h3 className="text-xl font-semibold mb-2 text-foreground">New Mobile App Coming Soon</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">Smart Home Kitchen Appliances Collection</h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Manage your MicroBiz account on the go! Our new mobile app will allow you to track repayments,
-                    access business resources, and connect with mentors—all from your smartphone.
+                    Transform your kitchen with our new smart appliance collection! Browse the latest refrigerators,
+                    microwaves, air fryers, and more. All available through our convenient hire purchase plans with
+                    zero down payment options.
                   </p>
                   <Button variant="link" className="text-secondary p-0 h-auto">
                     Learn More <ArrowRight className="ml-1 w-4 h-4" />
@@ -84,11 +86,11 @@ export default function WhatsNewPage() {
                     <span className="text-xs text-muted-foreground">September 20, 2025</span>
                   </div>
                   <h3 className="text-xl font-semibold mb-2 text-foreground">
-                    Partnership with Zimbabwe Chamber of Commerce
+                    Latest Samsung & iPhone Models in Stock
                   </h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    MicroBiz has partnered with the Zimbabwe Chamber of Commerce to provide additional business support
-                    and networking opportunities for our clients.
+                    Get the latest flagship smartphones from Samsung Galaxy S25 series and iPhone 16 series. Trade in
+                    your old device for instant credit and pay the rest through our flexible monthly plans!
                   </p>
                   <Button variant="link" className="text-primary p-0 h-auto">
                     Learn More <ArrowRight className="ml-1 w-4 h-4" />
@@ -117,7 +119,7 @@ export default function WhatsNewPage() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold mb-3 text-foreground">MicroBiz Launch Event - Harare</h3>
+                  <h3 className="text-2xl font-semibold mb-3 text-foreground">BancoZim Homeware Expo - Harare</h3>
                   <div className="space-y-2 mb-4">
                     <div className="flex items-center gap-2 text-muted-foreground">
                       <Clock className="w-4 h-4" />
@@ -129,8 +131,8 @@ export default function WhatsNewPage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Join us for the official launch of MicroBiz Zimbabwe! Meet our team, learn about our products,
-                    network with fellow entrepreneurs, and enjoy special launch-day offers.
+                    Experience our complete homeware collection in person! Browse bedroom sets, kitchen appliances,
+                    solar systems, and more. Enjoy exclusive expo discounts and instant hire purchase approvals on site!
                   </p>
                   <Button className="bg-primary hover:bg-primary/90 text-white">
                     Register Now <ArrowRight className="ml-2 w-4 h-4" />
@@ -148,7 +150,7 @@ export default function WhatsNewPage() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold mb-3 text-foreground">Business Skills Workshop - Bulawayo</h3>
+                  <h3 className="text-2xl font-semibold mb-3 text-foreground">Solar Energy Solutions Workshop - Bulawayo</h3>
                   <div className="space-y-2 mb-4">
                     <div className="flex items-center gap-2 text-muted-foreground">
                       <Clock className="w-4 h-4" />
@@ -156,12 +158,12 @@ export default function WhatsNewPage() {
                     </div>
                     <div className="flex items-center gap-2 text-muted-foreground">
                       <MapPin className="w-4 h-4" />
-                      <span className="text-sm">Bulawayo Business Hub</span>
+                      <span className="text-sm">Bulawayo Convention Centre</span>
                     </div>
                   </div>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Free workshop covering essential business skills including financial management, marketing
-                    strategies, and customer service. Open to all MicroBiz clients and applicants.
+                    Free workshop on solar energy solutions for your home. Learn about system sizing, installation,
+                    maintenance, and cost savings. Get expert consultations and special workshop-only financing offers!
                   </p>
                   <Button
                     variant="outline"
@@ -182,7 +184,7 @@ export default function WhatsNewPage() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold mb-3 text-foreground">Women in Business Summit</h3>
+                  <h3 className="text-2xl font-semibold mb-3 text-foreground">Smart Home Technology Showcase</h3>
                   <div className="space-y-2 mb-4">
                     <div className="flex items-center gap-2 text-muted-foreground">
                       <Clock className="w-4 h-4" />
@@ -194,8 +196,8 @@ export default function WhatsNewPage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Celebrating and empowering women entrepreneurs. Featuring keynote speakers, panel discussions, and
-                    networking opportunities with successful businesswomen.
+                    Experience the future of home living! See live demonstrations of smart TVs, home security systems,
+                    automated appliances, and integrated solar solutions. Pre-order with exclusive show pricing!
                   </p>
                   <Button className="bg-primary hover:bg-primary/90 text-white">
                     Register Now <ArrowRight className="ml-2 w-4 h-4" />

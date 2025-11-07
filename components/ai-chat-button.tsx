@@ -107,7 +107,7 @@ export function AIChatButton() {
           <div className="p-4 border-b border-border bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-between">
             <div>
               <h3 className="font-semibold text-foreground">Adala - AI Assistant</h3>
-              <p className="text-xs text-muted-foreground">Ask Adala anything MicroBiz</p>
+              <p className="text-xs text-muted-foreground">Ask Adala anything about BancoZim</p>
             </div>
             <button
               onClick={() => setIsOpen(false)}

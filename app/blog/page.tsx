@@ -14,7 +14,7 @@ export default function BlogPage() {
               Stories & <span className="text-secondary text-glow-blue">Insights</span>
             </h1>
             <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-              Success stories, testimonials, and insights from the MicroBiz community
+              Customer stories, testimonials, and home transformation insights from the BancoZim community
             </p>
           </div>
         </div>
@@ -36,18 +36,19 @@ export default function BlogPage() {
                 <div className="flex-1">
                   <div className="text-sm text-muted-foreground mb-2">September 15, 2025</div>
                   <h3 className="text-2xl font-semibold mb-3 text-foreground">
-                    Entrepreneur Networking Mixer - Harare
+                    BancoZim Product Showcase - Harare
                   </h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Over 200 entrepreneurs gathered for an evening of networking, knowledge sharing, and celebration.
-                    Featured panel discussions on scaling small businesses and navigating Zimbabwe's business landscape.
+                    Over 500 families attended our homeware showcase featuring the latest bedroom sets, kitchen appliances,
+                    and solar systems. Customers enjoyed live product demonstrations and exclusive event financing with
+                    zero down payment options.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-medium">
-                      200+ Attendees
+                      500+ Attendees
                     </span>
                     <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary text-xs font-medium">
-                      Networking
+                      Product Showcase
                     </span>
                   </div>
                 </div>
@@ -62,16 +63,16 @@ export default function BlogPage() {
                 <div className="flex-1">
                   <div className="text-sm text-muted-foreground mb-2">August 10, 2025</div>
                   <h3 className="text-2xl font-semibold mb-3 text-foreground">
-                    Financial Literacy Workshop - Bulawayo
+                    Solar Energy Solutions Workshop - Bulawayo
                   </h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    A full-day workshop focused on financial management for small businesses. Topics included budgeting,
-                    cash flow management, and understanding financial statements. Participants received free resources
-                    and one-on-one consultations.
+                    A full-day workshop focused on solar energy for homes. Topics included system sizing, installation
+                    best practices, maintenance tips, and maximizing energy savings. Participants received free solar
+                    assessments and exclusive workshop pricing.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-medium">
-                      150+ Attendees
+                      300+ Attendees
                     </span>
                     <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary text-xs font-medium">
                       Workshop
@@ -88,18 +89,18 @@ export default function BlogPage() {
                 </div>
                 <div className="flex-1">
                   <div className="text-sm text-muted-foreground mb-2">July 5, 2025</div>
-                  <h3 className="text-2xl font-semibold mb-3 text-foreground">Youth Entrepreneurship Summit</h3>
+                  <h3 className="text-2xl font-semibold mb-3 text-foreground">Smart Home Technology Expo</h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Inspiring the next generation of Zimbabwean entrepreneurs. Young business owners shared their
-                    success stories, and industry experts provided guidance on starting and growing businesses in
-                    today's digital age.
+                    Showcasing the future of home living in Zimbabwe. Customers experienced smart appliances, home
+                    automation, energy-efficient solutions, and integrated solar systems. Industry experts provided
+                    consultations on modernizing Zimbabwean homes.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-medium">
-                      300+ Attendees
+                      400+ Attendees
                     </span>
                     <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary text-xs font-medium">
-                      Summit
+                      Expo
                     </span>
                   </div>
                 </div>
@@ -122,76 +123,76 @@ export default function BlogPage() {
               {[
                 {
                   name: "Thandiwe Ncube",
-                  business: "Thandie's Fashion Boutique",
+                  business: "Harare Homeowner",
                   quote:
-                    "MicroBiz gave me the capital I needed to turn my passion for fashion into a thriving business. Within 6 months, I've expanded to two locations!",
+                    "BancoZim made it possible for me to furnish my entire bedroom with beautiful furniture through their flexible payment plan. The quality is outstanding!",
                 },
                 {
                   name: "Simba Mutasa",
-                  business: "Simba's Transport Services",
+                  business: "Chitungwiza Resident",
                   quote:
-                    "The flexible repayment terms made it possible for me to invest in my first delivery van. Now I'm running a fleet of three vehicles!",
+                    "I installed a 10kW solar system through BancoZim's hire purchase plan. My electricity bills are now zero, and I'm paying less monthly than before!",
                 },
                 {
                   name: "Grace Moyo",
-                  business: "Grace's Catering",
+                  business: "Bulawayo Customer",
                   quote:
-                    "Not only did MicroBiz provide funding, but the business mentorship helped me develop a solid marketing strategy. My client base has tripled!",
+                    "The kitchen appliances I got from BancoZim transformed my cooking experience. The payment plan was so affordable, I upgraded my entire kitchen!",
                 },
                 {
                   name: "Tafadzwa Chikwanha",
-                  business: "Tech Solutions ZW",
+                  business: "Gweru Homeowner",
                   quote:
-                    "As a tech entrepreneur, I needed equipment and software. MicroBiz understood my needs and provided exactly what I needed to launch my consultancy.",
+                    "I bought the latest Samsung phone through BancoZim with zero down payment. The process was quick, and the staff was very helpful!",
                 },
                 {
                   name: "Rudo Sibanda",
-                  business: "Rudo's Beauty Salon",
+                  business: "Mutare Customer",
                   quote:
-                    "The application process was so simple and fast. Within a week, I had the funds to open my dream salon. Thank you, MicroBiz!",
+                    "BancoZim helped me furnish my lounge with a beautiful sofa set. The hire purchase terms fit perfectly within my budget. Highly recommend!",
                 },
                 {
                   name: "Farai Ndlovu",
-                  business: "Farai's Grocery Store",
+                  business: "Masvingo Resident",
                   quote:
-                    "MicroBiz believed in me when banks wouldn't. Now my store is the go-to place in my community. I'm forever grateful!",
+                    "From bedroom furniture to kitchen appliances, BancoZim has everything! Their flexible payment options make quality homeware accessible to everyone.",
                 },
               ].concat([
                 {
                   name: "Thandiwe Ncube",
-                  business: "Thandie's Fashion Boutique",
+                  business: "Harare Homeowner",
                   quote:
-                    "MicroBiz gave me the capital I needed to turn my passion for fashion into a thriving business. Within 6 months, I've expanded to two locations!",
+                    "BancoZim made it possible for me to furnish my entire bedroom with beautiful furniture through their flexible payment plan. The quality is outstanding!",
                 },
                 {
                   name: "Simba Mutasa",
-                  business: "Simba's Transport Services",
+                  business: "Chitungwiza Resident",
                   quote:
-                    "The flexible repayment terms made it possible for me to invest in my first delivery van. Now I'm running a fleet of three vehicles!",
+                    "I installed a 10kW solar system through BancoZim's hire purchase plan. My electricity bills are now zero, and I'm paying less monthly than before!",
                 },
                 {
                   name: "Grace Moyo",
-                  business: "Grace's Catering",
+                  business: "Bulawayo Customer",
                   quote:
-                    "Not only did MicroBiz provide funding, but the business mentorship helped me develop a solid marketing strategy. My client base has tripled!",
+                    "The kitchen appliances I got from BancoZim transformed my cooking experience. The payment plan was so affordable, I upgraded my entire kitchen!",
                 },
                 {
                   name: "Tafadzwa Chikwanha",
-                  business: "Tech Solutions ZW",
+                  business: "Gweru Homeowner",
                   quote:
-                    "As a tech entrepreneur, I needed equipment and software. MicroBiz understood my needs and provided exactly what I needed to launch my consultancy.",
+                    "I bought the latest Samsung phone through BancoZim with zero down payment. The process was quick, and the staff was very helpful!",
                 },
                 {
                   name: "Rudo Sibanda",
-                  business: "Rudo's Beauty Salon",
+                  business: "Mutare Customer",
                   quote:
-                    "The application process was so simple and fast. Within a week, I had the funds to open my dream salon. Thank you, MicroBiz!",
+                    "BancoZim helped me furnish my lounge with a beautiful sofa set. The hire purchase terms fit perfectly within my budget. Highly recommend!",
                 },
                 {
                   name: "Farai Ndlovu",
-                  business: "Farai's Grocery Store",
+                  business: "Masvingo Resident",
                   quote:
-                    "MicroBiz believed in me when banks wouldn't. Now my store is the go-to place in my community. I'm forever grateful!",
+                    "From bedroom furniture to kitchen appliances, BancoZim has everything! Their flexible payment options make quality homeware accessible to everyone.",
                 },
               ]).map((testimonial, index) => (
                 <Card
@@ -221,31 +222,31 @@ export default function BlogPage() {
         <div className="container mx-auto max-w-4xl">
           <Card className="p-8 bg-gradient-to-br from-primary/10 to-secondary/10 border-primary/30">
             <h2 className="text-3xl font-bold mb-6 text-center text-foreground">
-              Why Partner with <span className="text-primary">MicroBiz?</span>
+              Why Choose <span className="text-primary">BancoZim?</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Proven Track Record</h3>
+                <h3 className="text-lg font-semibold mb-2 text-foreground">Quality Products</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  We've helped over 500 entrepreneurs launch and grow successful businesses across Zimbabwe.
+                  We offer superior, modern homeware from trusted brands to enhance your quality of life.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Comprehensive Support</h3>
+                <h3 className="text-lg font-semibold mb-2 text-foreground">Flexible Payment Plans</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Beyond funding, we provide mentorship, training, and ongoing business advisory services.
+                  Affordable hire purchase solutions with minimal down payments and competitive interest rates.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Community Network</h3>
+                <h3 className="text-lg font-semibold mb-2 text-foreground">Trans-Provincial Reach</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Join a thriving community of entrepreneurs who support and learn from each other.
+                  Physical branches across Zimbabwe and a robust online shopping platform for convenience.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Local Understanding</h3>
+                <h3 className="text-lg font-semibold mb-2 text-foreground">Customer-Centric Service</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  We understand the unique challenges and opportunities of doing business in Zimbabwe.
+                  Dedicated support team committed to helping you find the perfect products for your home.
                 </p>
               </div>
             </div>

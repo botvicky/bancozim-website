@@ -29,80 +29,80 @@ export default function FAQPage() {
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                How does MicroBiz help businesses grow?
+                What is hire purchase and how does it work?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                MicroBiz provides microfinancing solutions that give small business owners access to capital they need
-                to start or expand their businesses. We offer flexible repayment terms and business support to ensure
-                your success.
+                Hire purchase is a flexible payment plan that allows you to own quality homeware products by paying in
+                affordable monthly installments. You select your desired product, make a minimal down payment, and pay
+                the rest over an agreed period. Once all payments are complete, the product is fully yours!
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                Who is eligible for MicroBiz financing?
+                What products does BancoZim offer?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Currently, MicroBiz focuses on serving small business owners who are civil servants in Zimbabwe. This includes 
-                employees looking to grow their income, anyone starting a side hustle, people supporting family members in business, 
-                pre-retirees seeking post-retirement vocations, and anyone seeking financial freedom. However, we're expanding our
-                reach and welcome inquiries from entrepreneurs across Zimbabwe.
+                We offer 6 main product categories: Communications Gadgets (smartphones, tablets), Bedroom Ware
+                (furniture sets, beds, wardrobes), Lounge Ware (sofas, entertainment units), Kitchen Ware (appliances,
+                cookware), Solar Systems (home energy solutions), and Motor Care (automotive accessories and products).
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                How long does the application process take?
+                How long does the approval process take?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Our streamlined application process typically takes 3-5 business days from submission to approval. Once
-                approved, funds are disbursed within 48 hours, ensuring you can get started quickly.
+                Our streamlined approval process is designed to be quick and efficient. Most applications are reviewed
+                and approved within 24-48 hours. Once approved, you can collect your products immediately or schedule a
+                delivery at your convenience.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                What makes MicroBiz different from other lenders?
+                What makes BancoZim different from other retailers?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                We combine microfinancing with business mentorship and support. Our team doesn't just provide capital—we
-                partner with you to ensure your business succeeds through strategic guidance and ongoing support via the MicroBiz 
-                monitoring and evaluation system. Our holistic approach includes promoting a mindset shift and strong financial literacy.
+                BancoZim combines quality products with innovative hire purchase solutions that make homeware accessible
+                to every Zimbabwean family. We offer flexible payment terms, competitive interest rates, minimal down
+                payments, no hidden fees, and comprehensive after-sales support. Our mission is to increase your quality
+                of life through superior, modern homeware.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-5" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                What types of businesses can I start with MicroBiz funding?
+                Do I need a down payment?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                We support a wide range of businesses including retail shops, animal husbandry (chicken rearing, cattle farming), 
-                tech and services, food and catering, beauty and salons, construction and building, transport and logistics, fashion 
-                and apparel, car wash services, farming (tomatoes, cabbage), and many more. Each business type has a tailored starter 
-                pack designed specifically for that industry.
+                Down payment requirements vary by product and payment plan. Some promotional offers feature zero down
+                payment options, while others require a minimal deposit (typically 10-20% of the product value). Our
+                team will work with you to find a payment structure that fits your budget.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-6" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                What are the R.I.G.H.T values and why do they matter?
+                What are BancoZim's R.I.G.H.T values?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Our R.I.G.H.T values are the foundation of how we operate: Reliability (delivering what we promise on time), 
-                Integrity (doing what we say we will do), Genuineness (executing tasks with competence), Honesty (acting in a 
-                responsible and accountable manner), and Tenacity (completing objectives with speed and aggression). These values 
-                ensure you receive professional, trustworthy service throughout your partnership with us.
+                Our R.I.G.H.T values guide everything we do: Reliability (delivering what we promise on time), Integrity
+                (doing what we say we will do), Genuineness (executing tasks with competence), Honesty (acting
+                responsibly and accountably), and Tenacity (completing objectives with speed and determination). These
+                values ensure you receive exceptional service.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-7" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                How much funding can I receive?
+                What are the repayment terms?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Funding amounts vary depending on your chosen business starter pack. For example, the Food & Catering Pack ranges 
-                from $300 to $1,500, while the Construction & Building Pack ranges from $1,200 to $6,000. Each pack is designed to 
-                provide exactly what you need to launch successfully in your specific industry.
+                We offer flexible repayment periods ranging from 6 to 36 months, depending on the product and your
+                preference. Monthly installments are calculated to be affordable and sustainable for Zimbabwean families.
+                You can choose to pay monthly, and early settlement is always welcomed with no penalties.
               </AccordionContent>
             </AccordionItem>
 
@@ -111,64 +111,65 @@ export default function FAQPage() {
                 Are there any hidden fees or charges?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                No. We believe in transparent pricing with no surprise charges or hidden costs. All fees and terms are clearly 
-                outlined in your agreement before you commit. What you see is what you get—no hidden surprises.
+                Absolutely not. We believe in transparent pricing with no surprise charges. All fees, interest rates, and
+                payment terms are clearly outlined before you commit. What you see in your agreement is exactly what you
+                pay—no hidden costs or surprise fees.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-9" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                What kind of business support do you provide beyond funding?
+                Do you offer warranties on products?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                MicroBiz provides comprehensive support including business mentorship, strategic guidance, training on financial 
-                literacy, help with business planning, supplier connections, marketing support, and access to our monitoring and 
-                evaluation system to track your progress. We exist to help you become a confident entrepreneur who is well equipped, 
-                well resourced, and well trained.
+                Yes! All products come with manufacturer warranties. Additionally, we provide comprehensive after-sales
+                support. If you experience any issues with your product, our customer service team is here to help.
+                Warranty periods vary by product—ask our team for specific details.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-10" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                Do you offer flexible repayment terms?
+                Can I shop online or do I need to visit a branch?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Yes! Our repayment terms are designed to match your business cash flow, with grace periods available when needed. 
-                We understand that businesses have ups and downs, so we work with you to create a repayment plan that's sustainable 
-                and realistic for your situation.
+                Both! We have physical branches across Zimbabwe where you can see and touch products before purchasing.
+                We also offer a robust online shopping platform at bancosystem.co.zw where you can browse our full
+                catalog, submit applications, and arrange delivery—all from the comfort of your home.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-11" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                How can I get started with your services?
+                How can I get started with BancoZim?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Simply click the "Apply Now" button to visit our application portal at bancosystem.co.zw. Fill out the
-                application form with your business details, and our team will review your submission within 3-5
-                business days. You can also chat with Adala, our AI assistant, for instant answers to your questions.
+                Getting started is easy! Browse our products online or visit any of our branches. Once you've selected
+                your desired products, click "Shop Now" to visit bancosystem.co.zw and complete your application. Our
+                team will review your application and contact you within 24-48 hours. You can also chat with Adala, our
+                AI assistant, for instant answers.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-12" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                Who are your partners and what do they bring to the table?
+                Do you deliver products to my location?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                We partner with established institutions including the Salary Services Bureau of Zimbabwe, ZB Financial Holdings, 
-                Small Enterprise Development Corporation, and National Building Society Bank of Zimbabwe. These partnerships enable 
-                us to provide secure, reliable financing solutions and comprehensive support to our entrepreneurs.
+                Yes! We offer delivery services across Zimbabwe. Delivery fees vary by location and product size. For
+                large items like furniture and solar systems, we provide professional installation services as well.
+                Contact our team for specific delivery pricing to your area.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-13" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                What is your success rate with funded businesses?
+                What if I want to upgrade or exchange a product?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                We're proud to maintain a 95% success rate with our funded businesses. We've helped over 500+ businesses get started 
-                and have deployed over $2M+ in capital. Our success comes from combining financial support with comprehensive business 
-                mentorship and ongoing guidance.
+                We want you to be completely satisfied with your purchase. If you wish to upgrade to a better model or
+                exchange a product, contact our customer service team within 30 days of purchase. Terms and conditions
+                apply, and our team will guide you through the process to find the best solution for you.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
