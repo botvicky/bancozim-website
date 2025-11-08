@@ -44,7 +44,7 @@ export default function WhatsNewPage() {
                   </h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
                     We're excited to announce the arrival of our latest solar energy systems with increased capacity
-                    and efficiency. Now offering 5kW to 15kW systems with flexible hire purchase plans starting from
+                    and efficiency. Now offering 5kW to 15kW systems with flexible on-credit plans starting from
                     just $200/month!
                   </p>
                   <Button variant="link" className="text-primary p-0 h-auto">
@@ -66,7 +66,7 @@ export default function WhatsNewPage() {
                   <h3 className="text-xl font-semibold mb-2 text-foreground">Smart Home Kitchen Appliances Collection</h3>
                   <p className="text-muted-foreground leading-relaxed mb-4">
                     Transform your kitchen with our new smart appliance collection! Browse the latest refrigerators,
-                    microwaves, air fryers, and more. All available through our convenient hire purchase plans with
+                    microwaves, air fryers, and more. All available through our convenient on-credit plans with
                     zero down payment options.
                   </p>
                   <Button variant="link" className="text-secondary p-0 h-auto">
@@ -132,7 +132,7 @@ export default function WhatsNewPage() {
                   </div>
                   <p className="text-muted-foreground leading-relaxed mb-4">
                     Experience our complete homeware collection in person! Browse bedroom sets, kitchen appliances,
-                    solar systems, and more. Enjoy exclusive expo discounts and instant hire purchase approvals on site!
+                    solar systems, and more. Enjoy exclusive expo discounts and instant on-credit approvals on site!
                   </p>
                   <Button className="bg-primary hover:bg-primary/90 text-white">
                     Register Now <ArrowRight className="ml-2 w-4 h-4" />

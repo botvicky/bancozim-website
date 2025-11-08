@@ -29,12 +29,12 @@ export default function FAQPage() {
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="bg-card/50 backdrop-blur border border-border rounded-lg px-6">
               <AccordionTrigger className="text-foreground hover:text-secondary">
-                What is hire purchase and how does it work?
+                What does buying on credit mean and how does it work?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Hire purchase is a flexible payment plan that allows you to own quality homeware products by paying in
-                affordable monthly installments. You select your desired product, make a minimal down payment, and pay
-                the rest over an agreed period. Once all payments are complete, the product is fully yours!
+                Buying on credit lets you take home your desired products today and pay over time in affordable
+                monthly installments. Choose an item, make a minimal down payment, and settle the balance over an
+                agreed period. Once all payments are complete, the product is fully yours.
               </AccordionContent>
             </AccordionItem>
 
@@ -65,8 +65,8 @@ export default function FAQPage() {
                 What makes BancoZim different from other retailers?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                BancoZim combines quality products with innovative hire purchase solutions that make homeware accessible
-                to every Zimbabwean family. We offer flexible payment terms, competitive interest rates, minimal down
+                BancoZim combines quality products with innovative on-credit plans that make homeware accessible
+                to every Zimbabwean family. We offer flexible payment terms, competitive rates, minimal down
                 payments, no hidden fees, and comprehensive after-sales support. Our mission is to increase your quality
                 of life through superior, modern homeware.
               </AccordionContent>
@@ -146,8 +146,8 @@ export default function FAQPage() {
               <AccordionContent className="text-muted-foreground leading-relaxed">
                 Getting started is easy! Browse our products online or visit any of our branches. Once you've selected
                 your desired products, click "Shop Now" to visit bancosystem.co.zw and complete your application. Our
-                team will review your application and contact you within 24-48 hours. You can also chat with Adala, our
-                AI assistant, for instant answers.
+                team will review your application and contact you within 24-48 hours. You can also contact our support
+                team for instant answers.
               </AccordionContent>
             </AccordionItem>
 

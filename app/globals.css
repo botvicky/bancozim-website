@@ -1,68 +1,38 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
 :root {
-  /* Custom MicroBiz Zimbabwe theme with navy blue, orange, and white */
-  --background: oklch(0.12 0.04 250); /* Deep navy blue */
-  --foreground: oklch(0.98 0 0); /* White */
-  --card: oklch(0.18 0.05 250); /* Slightly lighter navy */
-  --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.15 0.04 250);
-  --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.65 0.22 35); /* Orange */
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.58 0.24 250); /* Bright blue */
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.25 0.04 250);
-  --muted-foreground: oklch(0.65 0.02 250);
-  --accent: oklch(0.58 0.24 250); /* Bright blue accent */
-  --accent-foreground: oklch(0.98 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.25 0.04 250);
-  --input: oklch(0.25 0.04 250);
-  --ring: oklch(0.58 0.24 250);
-  --chart-1: oklch(0.65 0.22 35);
-  --chart-2: oklch(0.58 0.24 250);
-  --chart-3: oklch(0.98 0 0);
-  --chart-4: oklch(0.45 0.18 250);
-  --chart-5: oklch(0.75 0.2 35);
-  --radius: 1rem;
-}
-
-.light {
-  /* Light theme with whitesmoke/white background, keeping brand colors */
-  --background: oklch(0.98 0 0); /* White/Whitesmoke */
-  --foreground: oklch(0.15 0.04 250); /* Dark navy for text */
-  --card: oklch(0.96 0.005 250); /* Very light gray-blue */
-  --card-foreground: oklch(0.15 0.04 250);
-  --popover: oklch(0.98 0 0);
-  --popover-foreground: oklch(0.15 0.04 250);
-  --primary: oklch(0.65 0.22 35); /* Orange - keep brand color */
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.58 0.24 250); /* Bright blue - same as dark theme for navbar/footer */
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.94 0.01 250);
-  --muted-foreground: oklch(0.45 0.02 250);
-  --accent: oklch(0.58 0.24 250); /* Bright blue accent */
-  --accent-foreground: oklch(0.98 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.88 0.01 250);
-  --input: oklch(0.88 0.01 250);
-  --ring: oklch(0.58 0.24 250);
-  --chart-1: oklch(0.65 0.22 35);
-  --chart-2: oklch(0.58 0.24 250);
-  --chart-3: oklch(0.25 0.08 250);
-  --chart-4: oklch(0.45 0.18 250);
-  --chart-5: oklch(0.75 0.2 35);
+  /* BancoZim Luxury Brand Colors - Navy Blue, Orange, White */
+  --background: #FFFFFF; /* Pure White */
+  --foreground: #001F3F; /* Navy Blue for text */
+  --card: #F8F9FA; /* Very light gray for cards */
+  --card-foreground: #001F3F;
+  --popover: #FFFFFF;
+  --popover-foreground: #001F3F;
+  --primary: #FF6B35; /* BancoZim Orange */
+  --primary-foreground: #FFFFFF;
+  --secondary: #001F3F; /* Navy Blue */
+  --secondary-foreground: #FFFFFF;
+  --muted: #F1F3F5;
+  --muted-foreground: #6C757D;
+  --accent: #FF6B35;
+  --accent-foreground: #FFFFFF;
+  --destructive: #DC3545;
+  --destructive-foreground: #FFFFFF;
+  --border: #DEE2E6;
+  --input: #DEE2E6;
+  --ring: #FF6B35;
+  --chart-1: #FF6B35;
+  --chart-2: #001F3F;
+  --chart-3: #6C757D;
+  --chart-4: #17A2B8;
+  --chart-5: #FFC107;
+  --radius: 0.5rem;
 }
 
 @theme inline {
-  --font-sans: "Geist", "Geist Fallback";
-  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  --font-sans: "Geist", "Geist Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -87,18 +57,10 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
   --radius-xl: calc(var(--radius) + 4px);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
 }
 
 @layer base {
@@ -106,70 +68,98 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  /* Elegant typography for luxury feel */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
   }
 }
 
-/* Custom glow effects for futuristic design */
+/* Luxury utility classes */
 @layer utilities {
-  .glow-blue {
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.6), 0 0 80px rgba(59, 130, 246, 0.3);
+  .luxury-shadow {
+    box-shadow: 0 10px 40px -10px rgba(0, 31, 63, 0.15);
+  }
+  
+  .luxury-shadow-lg {
+    box-shadow: 0 20px 60px -20px rgba(0, 31, 63, 0.25);
+  }
+  
+  .luxury-border {
+    border: 1px solid rgba(0, 31, 63, 0.1);
+  }
+  
+  .text-luxury {
+    color: #001F3F;
+  }
+  
+  .bg-luxury-gradient {
+    background: linear-gradient(135deg, #001F3F 0%, #003A70 100%);
+  }
+  
+  .bg-luxury-gradient-light {
+    background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
   }
 
-  .glow-orange {
-    box-shadow: 0 0 40px rgba(249, 115, 22, 0.6), 0 0 80px rgba(249, 115, 22, 0.3);
+  /* Smooth animations for luxury feel */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
   }
-
-  .text-glow-blue {
-    text-shadow: 0 0 20px rgba(59, 130, 246, 0.8), 0 0 40px rgba(59, 130, 246, 0.4);
+  
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
   }
-
-  .text-glow-orange {
-    text-shadow: 0 0 20px rgba(249, 115, 22, 0.8), 0 0 40px rgba(249, 115, 22, 0.4);
+  
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(-30px); }
+    to { opacity: 1; transform: translateX(0); }
   }
-
-  /* Values animations */
-  @keyframes slideLeftInOut {
-    0% { opacity: 0; transform: translateX(-32px); }
-    15% { opacity: 1; transform: translateX(0); }
-    50% { opacity: 1; transform: translateX(0); }
-    85% { opacity: 0.9; transform: translateX(-12px); }
-    100% { opacity: 0; transform: translateX(-32px); }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
   }
-  @keyframes slideRightInOut {
-    0% { opacity: 0; transform: translateX(32px); }
-    15% { opacity: 1; transform: translateX(0); }
-    50% { opacity: 1; transform: translateX(0); }
-    85% { opacity: 0.9; transform: translateX(12px); }
-    100% { opacity: 0; transform: translateX(32px); }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out;
   }
-  .animate-slide-left { animation: slideLeftInOut 9s ease-in-out infinite; will-change: transform, opacity; }
-  .animate-slide-right { animation: slideRightInOut 9s ease-in-out infinite; will-change: transform, opacity; }
-
-  /* Parent-driven animations for Values section */
-  .values-anim .value-item { will-change: transform, opacity; animation-delay: var(--delay, 0s); }
-  .values-anim .value-item[data-dir="left"] { animation: slideLeftInOut 9s ease-in-out infinite; }
-  .values-anim .value-item[data-dir="right"] { animation: slideRightInOut 9s ease-in-out infinite; }
+  
+  .animate-slide-in {
+    animation: slideIn 0.6s ease-out;
+  }
 
   /* Testimonials slider animations */
   @keyframes scrollRight {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
   }
-  @keyframes scrollLeft {
-    0% { transform: translateX(-50%); }
-    100% { transform: translateX(0); }
+  
+  .animate-scroll-right { 
+    animation: scrollRight 40s linear infinite; 
   }
-  .animate-scroll-right { animation: scrollRight 30s linear infinite; }
-  .animate-scroll-left { animation: scrollLeft 30s linear infinite; }
 }
 
 /* Respect reduced motion preferences */
 @media (prefers-reduced-motion: reduce) {
-  .animate-slide-left,
-  .animate-slide-right,
-  .animate-scroll-right,
-  .animate-scroll-left {
+  .animate-fade-in,
+  .animate-fade-in-up,
+  .animate-slide-in,
+  .animate-scroll-right {
     animation: none !important;
   }
 }

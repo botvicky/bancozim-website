@@ -131,7 +131,7 @@ export default function BlogPage() {
                   name: "Simba Mutasa",
                   business: "Chitungwiza Resident",
                   quote:
-                    "I installed a 10kW solar system through BancoZim's hire purchase plan. My electricity bills are now zero, and I'm paying less monthly than before!",
+                    "I installed a 10kW solar system through BancoZim's on-credit plan. My electricity bills are now zero, and I'm paying less monthly than before!",
                 },
                 {
                   name: "Grace Moyo",
@@ -149,7 +149,7 @@ export default function BlogPage() {
                   name: "Rudo Sibanda",
                   business: "Mutare Customer",
                   quote:
-                    "BancoZim helped me furnish my lounge with a beautiful sofa set. The hire purchase terms fit perfectly within my budget. Highly recommend!",
+                    "BancoZim helped me furnish my lounge with a beautiful sofa set. The on-credit terms fit perfectly within my budget. Highly recommend!",
                 },
                 {
                   name: "Farai Ndlovu",
@@ -168,7 +168,7 @@ export default function BlogPage() {
                   name: "Simba Mutasa",
                   business: "Chitungwiza Resident",
                   quote:
-                    "I installed a 10kW solar system through BancoZim's hire purchase plan. My electricity bills are now zero, and I'm paying less monthly than before!",
+                    "I installed a 10kW solar system through BancoZim's on-credit plan. My electricity bills are now zero, and I'm paying less monthly than before!",
                 },
                 {
                   name: "Grace Moyo",
@@ -186,7 +186,7 @@ export default function BlogPage() {
                   name: "Rudo Sibanda",
                   business: "Mutare Customer",
                   quote:
-                    "BancoZim helped me furnish my lounge with a beautiful sofa set. The hire purchase terms fit perfectly within my budget. Highly recommend!",
+                    "BancoZim helped me furnish my lounge with a beautiful sofa set. The on-credit terms fit perfectly within my budget. Highly recommend!",
                 },
                 {
                   name: "Farai Ndlovu",
@@ -234,7 +234,7 @@ export default function BlogPage() {
               <div>
                 <h3 className="text-lg font-semibold mb-2 text-foreground">Flexible Payment Plans</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Affordable hire purchase solutions with minimal down payments and competitive interest rates.
+                  Affordable on-credit plans with minimal down payments and competitive rates.
                 </p>
               </div>
               <div>
